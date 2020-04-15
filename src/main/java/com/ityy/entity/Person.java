@@ -3,6 +3,15 @@ package com.ityy.entity;
 public class Person {
     private String name;
     private Integer age;
+    private String gender;
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
 
     public String getName() {
         return name;
