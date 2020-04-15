@@ -1,10 +1,21 @@
 package com.ityy.entity;
 
+import java.util.Date;
+
 public class Person {
     private String name;
     private Integer age;
     private String gender;
     private Integer id;
+    private Date birth;
+
+    public Date getBirth() {
+        return birth;
+    }
+
+    public void setBirth(Date birth) {
+        this.birth = birth;
+    }
 
     public Integer getId() {
         return id;
