@@ -5,6 +5,15 @@ public class Person {
     private Integer age;
     private String gender;
     private Integer id;
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public Integer getId() {
         return id;
