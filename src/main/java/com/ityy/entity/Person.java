@@ -7,6 +7,7 @@ public class Person {
     private Integer age;
     private String gender;
     private Integer id;
+
     private Date birth;
 
     public Date getBirth() {
@@ -15,6 +16,16 @@ public class Person {
 
     public void setBirth(Date birth) {
         this.birth = birth;
+    }
+
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public Integer getId() {
